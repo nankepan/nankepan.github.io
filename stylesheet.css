@@ -57,7 +57,7 @@ p {
 .name {
   margin: 0 0 18px;
   color: #182332;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.25;
   text-align: center;
@@ -65,7 +65,7 @@ p {
 }
 
 .name span {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: normal;
 }
@@ -228,51 +228,4 @@ p {
 
 .footer p {
   margin: 0;
-}
-
-@media (max-width: 640px) {
-  .page {
-    padding: 28px 20px 20px;
-  }
-
-  .profile {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 22px;
-    margin-bottom: 30px;
-  }
-
-  .profile-photo-link {
-    width: 180px;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .name {
-    font-size: 30px;
-  }
-
-  .name span {
-    font-size: 22px;
-  }
-
-  .section-heading {
-    font-size: 25px;
-  }
-
-  .publication {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 16px;
-    padding: 22px 0;
-  }
-
-  .paper-image {
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-  }
-
-  .news li {
-    grid-template-columns: 64px minmax(0, 1fr);
-    gap: 10px;
-  }
 }
