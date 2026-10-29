@@ -1,183 +1,133 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <title>Kepan Nan</title>
-
   <meta name="author" content="Kepan Nan">
   <meta name="description" content="Kepan Nan's home page">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
-
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Kepan Nan (南可攀)</name>
-              </p>
-              <p>I am a third-year Ph.D. student at <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a>, advised by Prof. <a href="https://tyshiwo.github.io/" target="_blank">Ying Tai</a>. My research focuses on <strong>video generation, world models, and efficient generative modeling</strong>. I am currently a research intern with the <a href="https://www.longcatai.net/" target="_blank">LongCat-Video</a> team at Meituan.</p>
+  <main class="page">
+    <header class="profile">
+      <div class="profile-intro">
+        <h1 class="name">Kepan Nan <span>(南可攀)</span></h1>
+        <p>I am a third-year Ph.D. student at <a href="https://www.nju.edu.cn/en/" target="_blank" rel="noopener noreferrer">Nanjing University</a>, advised by Prof. <a href="https://tyshiwo.github.io/" target="_blank" rel="noopener noreferrer">Ying Tai</a>. My research focuses on <strong>video generation, world models, and efficient generative modeling</strong>. I am currently a research intern with the <a href="https://www.longcatai.net/" target="_blank" rel="noopener noreferrer">LongCat-Video</a> team at Meituan.</p>
+        <p class="contact-links">
+          <a href="mailto:nankepan@163.com">Email</a><span class="separator" aria-hidden="true">/</span><a href="https://scholar.google.com/citations?user=PXmlku8AAAAJ&hl" target="_blank" rel="noopener noreferrer">Google Scholar</a><span class="separator" aria-hidden="true">/</span><a href="https://github.com/nankepan" target="_blank" rel="noopener noreferrer">Github</a>
+        </p>
+      </div>
+      <a class="profile-photo-link" href="images/profile.jpg">
+        <img class="profile-photo" src="images/profile.jpg" width="939" height="940" alt="Kepan Nan's profile photo">
+      </a>
+    </header>
 
-              <p style="text-align:center">
-                <a href="mailto:nankepan@163.com">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=PXmlku8AAAAJ&hl" target="_blank">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/nankepan" target="_blank">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:25%;max-width:25%">
-              <a href="images/profile.jpg"><img style="width:110%;max-width:110%" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
+    <section class="section" aria-labelledby="news-heading">
+      <h2 class="section-heading" id="news-heading">News</h2>
+      <ul class="news">
+        <li>
+          <span class="date">08/2026</span>
+          <span><a href="https://link.springer.com/article/10.1007/s11263-026-02989-8" target="_blank" rel="noopener noreferrer">OpenVid++</a> is accepted by <em>IJCV</em> 2026.</span>
+        </li>
+        <li>
+          <span class="date">02/2026</span>
+          <span><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Nan_Accelerating_Autoregressive_Video_Diffusion_via_History-Guided_Cache_and_Residual_Correction_CVPR_2026_paper.pdf" target="_blank" rel="noopener noreferrer">ARCache</a> is accepted by <em>CVPR</em> 2026.</span>
+        </li>
+        <li>
+          <span class="date">02/2025</span>
+          <span><a href="https://arxiv.org/pdf/2412.09283" target="_blank" rel="noopener noreferrer">InstanceCap</a> is accepted by <em>CVPR</em> 2025.</span>
+        </li>
+        <li>
+          <span class="date">01/2025</span>
+          <span><a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/0396ca5a4c628936609aa819bfbca916-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer">OpenVid-1M</a> is accepted by <em>ICLR</em> 2025.</span>
+        </li>
+        <li>
+          <span class="date">09/2024</span>
+          <span>I begin my Ph.D. journey at <a href="https://www.nju.edu.cn/en/" target="_blank" rel="noopener noreferrer">Nanjing University</a>.</span>
+        </li>
+      </ul>
+    </section>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>News</heading>
-            </td>
-          </tr>
-        </tbody></table>
+    <section class="section" aria-labelledby="publications-heading">
+      <h2 class="section-heading" id="publications-heading">Selected Publications</h2>
+      <p class="section-note">* indicates equal contribution.</p>
 
-        <ul class="news">
-          <li><span class="date">08/2026</span> <a href="https://link.springer.com/article/10.1007/s11263-026-02989-8" target="_blank">OpenVid++</a> is accepted by <em>IJCV</em> 2026 </strong>.</li>
-          <li><span class="date">02/2026</span> <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Nan_Accelerating_Autoregressive_Video_Diffusion_via_History-Guided_Cache_and_Residual_Correction_CVPR_2026_paper.pdf" target="_blank">ARCache</a> is accepted by <em>CVPR</em> 2026.</li>
-          <li><span class="date">02/2025</span> <a href="https://arxiv.org/pdf/2412.09283" target="_blank">InstanceCap</a> is accepted by <em>CVPR</em> 2025.</li>
-          <li><span class="date">01/2025</span> <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/0396ca5a4c628936609aa819bfbca916-Paper-Conference.pdf" target="_blank">OpenVid-1M</a> is accepted by <em>ICLR</em> 2025.</li>
-          <li><span class="date">09/2024</span> I begin my Ph.D. journey at <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a>.</li>
-        </ul>
+      <article class="publication">
+        <img class="paper-image" src="images/openvid++.png" width="1460" height="1144" alt="OpenVid++ dataset overview" loading="lazy">
+        <div>
+          <h3 class="paper-title">OpenVid++: A Large-scale High-quality Dataset for Text-to-video Generation</h3>
+          <p class="paper-authors"><strong>Kepan Nan*</strong>, Tiehan Fan*, Rui Xie, Penghao Zhou, Yilin Zhang, Xiang Li, Jian Yang, Zhenheng Yang, Ying Tai</p>
+          <p class="paper-venue"><em>IJCV</em>, 2026</p>
+          <p class="paper-links">
+            <a href="https://link.springer.com/article/10.1007/s11263-026-02989-8" target="_blank" rel="noopener noreferrer">Paper</a> | <a href="https://github.com/NJU-PCALab/OpenVid-1M" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://huggingface.co/datasets/nkp37/OpenVid-1M" target="_blank" rel="noopener noreferrer">Dataset</a>
+          </p>
+        </div>
+      </article>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Selected Publications</heading>
-              <p style="margin-top:8px;margin-bottom:0px">* indicates equal contribution.</p>
-            </td>
-          </tr>
-        </tbody></table>
+      <article class="publication">
+        <img class="paper-image" src="images/arcache.png" width="1316" height="636" alt="ARCache method overview" loading="lazy">
+        <div>
+          <h3 class="paper-title">Accelerating Autoregressive Video Diffusion via History-Guided Cache and Residual Correction</h3>
+          <p class="paper-authors"><strong>Kepan Nan*</strong>, Wangbo Zhao*, Penghao Zhou, Jun Li, Zhenheng Yang, Jian Yang, Ying Tai</p>
+          <p class="paper-venue"><em>CVPR</em>, 2026</p>
+          <p class="paper-links">
+            <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Nan_Accelerating_Autoregressive_Video_Diffusion_via_History-Guided_Cache_and_Residual_Correction_CVPR_2026_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+          </p>
+        </div>
+      </article>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:32%;vertical-align:middle">
-              <div class="one" style="display:flex; align-items:center;">
-                <img src='images/openvid++.png' width="220" alt="openvid++">
-              </div>
-            </td>
-            <td style="padding:20px;width:68%;vertical-align:middle">
-              <papertitle>OpenVid++: A Large-scale High-quality Dataset for Text-to-video Generation</papertitle>
-              <br>
-              <strong>Kepan Nan*</strong>, Tiehan Fan*, Rui Xie, Penghao Zhou, Yilin Zhang, Xiang Li, Jian Yang, Zhenheng Yang, Ying Tai
-              <br>
-              <em>IJCV</em>, 2026
-              <p>
-                <a href="https://link.springer.com/article/10.1007/s11263-026-02989-8" target="_blank">Paper</a> | <a href="https://github.com/NJU-PCALab/OpenVid-1M" target="_blank">Code</a> | <a href="https://huggingface.co/datasets/nkp37/OpenVid-1M" target="_blank">Dataset</a>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+      <article class="publication">
+        <img class="paper-image" src="images/instancecap.png" width="1914" height="1140" alt="InstanceCap method overview" loading="lazy">
+        <div>
+          <h3 class="paper-title">InstanceCap: Improving Text-to-Video Generation via Instance-aware Structured Caption</h3>
+          <p class="paper-authors">Tiehan Fan*, <strong>Kepan Nan*</strong>, Rui Xie, Penghao Zhou, Zhenheng Yang, Chaoyou Fu, Xiang Li, Jian Yang, Ying Tai</p>
+          <p class="paper-venue"><em>CVPR</em> 2025</p>
+          <p class="paper-links">
+            <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fan_InstanceCap_Improving_Text-to-Video_Generation_via_Instance-aware_Structured_Caption_CVPR_2025_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a> | <a href="https://github.com/NJU-PCALab/InstanceCap" target="_blank" rel="noopener noreferrer">Code</a>
+          </p>
+        </div>
+      </article>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:32%;vertical-align:middle">
-              <div class="one" style="display:flex; align-items:center;">
-                <img src='images/arcache.png' width="220" alt="arcache">
-              </div>
-            </td>
-            <td style="padding:20px;width:68%;vertical-align:middle">
-              <papertitle>Accelerating Autoregressive Video Diffusion via History-Guided Cache and Residual Correction</papertitle>
-              <br>
-              <strong>Kepan Nan*</strong>, Wangbo Zhao*, Penghao Zhou, Jun Li, Zhenheng Yang, Jian Yang, Ying Tai
-              <br>
-              <em>CVPR</em>, 2026
-              <p>
-                <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Nan_Accelerating_Autoregressive_Video_Diffusion_via_History-Guided_Cache_and_Residual_Correction_CVPR_2026_paper.pdf" target="_blank">Paper</a>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+      <article class="publication">
+        <img class="paper-image" src="images/openvid-1m.jpg" width="2418" height="1364" alt="OpenVid-1M dataset overview" loading="lazy">
+        <div>
+          <h3 class="paper-title">OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation</h3>
+          <p class="paper-authors"><strong>Kepan Nan*</strong>, Rui Xie*, Penghao Zhou*, Tiehan Fan, Zhenheng Yang, Zhijie Chen, Xiang Li, Jian Yang, Ying Tai</p>
+          <p class="paper-venue"><em>ICLR</em> 2025</p>
+          <p class="paper-links">
+            <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/0396ca5a4c628936609aa819bfbca916-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer">Paper</a> | <a href="https://github.com/NJU-PCALab/OpenVid-1M" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://huggingface.co/datasets/nkp37/OpenVid-1M" target="_blank" rel="noopener noreferrer">Dataset</a> <span class="downloads">(<strong>1.1M+</strong> total downloads)</span>
+          </p>
+        </div>
+      </article>
+    </section>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:32%;vertical-align:middle">
-              <div class="one" style="display:flex; align-items:center;">
-                <img src='images/instancecap.png' width="220" alt="instancecap">
-              </div>
-            </td>
-            <td style="padding:20px;width:68%;vertical-align:middle">
-              <papertitle>InstanceCap: Improving Text-to-Video Generation via Instance-aware Structured Caption</papertitle>
-              <br>
-              Tiehan Fan*, <strong>Kepan Nan*</strong>, Rui Xie, Penghao Zhou, Zhenheng Yang, Chaoyou Fu, Xiang Li, Jian Yang, Ying Tai
-              <br>
-              <em>CVPR</em> 2025
-              <p>
-                <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fan_InstanceCap_Improving_Text-to-Video_Generation_via_Instance-aware_Structured_Caption_CVPR_2025_paper.pdf" target="_blank">Paper</a> | <a href="https://github.com/NJU-PCALab/InstanceCap" target="_blank">Code</a>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+    <section class="section" aria-labelledby="internships-heading">
+      <h2 class="section-heading" id="internships-heading">Internships</h2>
+      <ul class="internships">
+        <li>
+          <div class="internship-heading">
+            <strong>LongCat-Video, Meituan</strong>
+            <span class="internship-details">Beijing · 06/2026 - Now</span>
+          </div>
+          <p>Work closely with <a href="https://scholar.google.com.hk/citations?user=W1ZXjMkAAAAJ&hl" target="_blank" rel="noopener noreferrer">Zhuoliang Kang</a> and <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=a_zSeVEAAAAJ" target="_blank" rel="noopener noreferrer">Yong Zhang</a>.</p>
+        </li>
+        <li>
+          <div class="internship-heading">
+            <strong>TikTok Content Intelligence, Bytedance</strong>
+            <span class="internship-details">Shanghai · 03/2024 - 04/2026</span>
+          </div>
+          <p>Work closely with <a href="https://scholar.google.com.hk/citations?user=yWq1Fd4AAAAJ&hl" target="_blank" rel="noopener noreferrer">Penghao Zhou</a> and <a href="https://scholar.google.com.hk/citations?user=Ds5wwRoAAAAJ&hl" target="_blank" rel="noopener noreferrer">Zhenheng Yang</a>.</p>
+        </li>
+      </ul>
+    </section>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:32%;vertical-align:middle">
-              <div class="one" style="display:flex; align-items:center;">
-                <img src='images/openvid-1m.jpg' width="220" alt="openvid-1m">
-              </div>
-            </td>
-            <td style="padding:20px;width:68%;vertical-align:middle">
-              <papertitle>OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation</papertitle>
-              <br>
-              <strong>Kepan Nan*</strong>, Rui Xie*, Penghao Zhou*, Tiehan Fan, Zhenheng Yang, Zhijie Chen, Xiang Li, Jian Yang, Ying Tai
-              <br>
-              <em>ICLR</em> 2025
-              <p>
-                <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/0396ca5a4c628936609aa819bfbca916-Paper-Conference.pdf" target="_blank">Paper</a> | <a href="https://github.com/NJU-PCALab/OpenVid-1M" target="_blank">Code</a> | <a href="https://huggingface.co/datasets/nkp37/OpenVid-1M" target="_blank">Dataset</a> (<strong>1.1M+</strong> total downloads)
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Internships</heading>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <ul>
-          <li>
-            LongCat-Video, Meituan, Beijing, 06/2026 - Now
-            <br>
-            Work closely with <a href="https://scholar.google.com.hk/citations?user=W1ZXjMkAAAAJ&hl" target="_blank">Zhuoliang Kang</a> and <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=a_zSeVEAAAAJ" target="_blank">Yong Zhang</a>.
-            <br>
-          </li>
-
-          <br>
-          <li>
-            TikTok Content Intelligence, Bytedance, Shanghai, 03/2024 - 04/2026
-            <br>
-            Work closely with <a href="https://scholar.google.com.hk/citations?user=yWq1Fd4AAAAJ&hl" target="_blank">Penghao Zhou</a> and <a href="https://scholar.google.com.hk/citations?user=Ds5wwRoAAAAJ&hl" target="_blank">Zhenheng Yang</a>.
-            <br>
-          </li>
-        </ul>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <p style="text-align:center;font-size:12px;">
-                Website adapted from <a href="https://github.com/jonbarron/jonbarron_website" target="_blank" style="font-size:inherit;">Jon Barron's template</a>.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </tbody></table>
+    <footer class="footer">
+      <p>Website adapted from <a href="https://github.com/jonbarron/jonbarron_website" target="_blank" rel="noopener noreferrer">Jon Barron's template</a>.</p>
+    </footer>
+  </main>
 </body>
-
 </html>
